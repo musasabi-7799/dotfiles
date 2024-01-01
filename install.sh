@@ -1,6 +1,6 @@
 #!/bin/bash
 
-email="codeqoukka@gmail.com"
+email="musasabi-7799@gmail.com"
 
 cd "$(dirname "$0")" || exit
 sh -c "$(curl -fsLS chezmoi.io/get)" -- -b "${HOME}/.local/bin"
