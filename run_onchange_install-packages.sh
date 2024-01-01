@@ -9,6 +9,7 @@ manage_os_packages() {
     sudo apt upgarde
 
     packages=(
+      fuse
       git
       zsh
     )
