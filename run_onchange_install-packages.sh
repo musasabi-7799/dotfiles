@@ -35,6 +35,8 @@ manage_os_packages() {
 
     packages=(
       epel-release
+      util-linux-user
+      fuse
       git
       zsh
     )
