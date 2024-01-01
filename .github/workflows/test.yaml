@@ -1,0 +1,15 @@
+name: Test dotfiles deployments
+
+on: [push]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Deploy dotfiles
+        run: ./install.sh
+
+      - name: Test dotfiles deployments
+        run: cd test; goss validate
